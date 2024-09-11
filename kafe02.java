@@ -17,10 +17,15 @@ public class kafe02 {
         System.out.print("Masukkan jumlah pembelian roti: ");
         jmlRoti = input.nextInt();
         double totalHarga = (jmlKopi * hargaKopi) + (jmlRoti * hargaRoti) + (jmlTeh * hargaTEh);
+        byte totalByte = (byte) totalHarga;
         double nominalBayar = totalHarga - (diskon * totalHarga);
+        int nominalint = (int) nominalBayar;
         System.out.println("Keanggotaan pelanggan " + keanggotaan);
+        System.out.println("total harga (byte)" + totalByte);
         System.out.println("Item pembelian " + jmlKopi + "kopi, " + jmlRoti + "Roti, " + jmlTeh + "Teh ");
         System.out.println("Nominal bayar Rp " + nominalBayar);
+        System.out.println("Nominal bayar (int)" + nominalBayar);
+
 
         
     }
