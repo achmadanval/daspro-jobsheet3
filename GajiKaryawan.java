@@ -18,10 +18,13 @@ public class GajiKaryawan {
         double pajak = totalGajiSebelumPajak * pajakk;
         double gajiBersih = totalGajiSebelumPajak - pajak;
 
-        System.out.printf("Gaji sebelum pajak: Rp %.2f%n", gajiSebelumPajak);
-        System.out.printf("Bonus: Rp %.2f%n", bonus);
-        System.out.printf("Total gaji sebelum pajak: Rp %.2f%n", totalGajiSebelumPajak);
-        System.out.printf("Pajak yang dikenakan: Rp %.2f%n", pajak);
-        System.out.printf("Gaji bersih setelah pajak: Rp %.2f%n", gajiBersih);
+        System.out.println("===============================================================")
+        System.out.println("======================Bakso Mas Roy============================")
+        System.out.println("===============================================================")
+        System.out.printf("Gaji sebelum pajak               : Rp %.2f%n", gajiSebelumPajak);
+        System.out.printf("Bonus                            : Rp %.2f%n", bonus);
+        System.out.printf("Total gaji sebelum pajak         : Rp %.2f%n", totalGajiSebelumPajak);
+        System.out.printf("Pajak yang dikenakan             : Rp %.2f%n", pajak);
+        System.out.printf("Gaji bersih setelah pajak        : Rp %.2f%n", gajiBersih);
     }
 }
